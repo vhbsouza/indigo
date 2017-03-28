@@ -1,6 +1,6 @@
 # main text of home
-name: John Doe
-bio: A Man who travels the world eating noodles
+name: Victor Hugo Souza
+bio: What is meant to be will always find a way
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -12,17 +12,17 @@ picture: assets/images/profile.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+# resume: true
+# resume-external: true
+# resume-url: https://google.com/?q=my+resume
 
-url: https://koppl.in/indigo
+url: https://vhbsouza.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+analytics-google: 'UA-96323943-1'
 
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
@@ -30,39 +30,39 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: vhbsouza # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-facebook: myfacebook
-twitter: mytwitter
+# facebook: vhbsouza
+twitter: vhbsouza
 # google: mygoogle
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: vhbsouza
 # youtube: myyoutube
 # spotify: myspotify
-github: mygithub
+github: vhbsouza
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
-email: myemail@gmail.com
+email: vhbsouza@gmail.com
 
 authors:
-    johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+    vhbsouza:
+        name: Victor Hugo Souza
+        bio: What is meant to be will always find a way
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter: vhbsouza
+    # jamesfoster:
+        # name: James Foster
+        # bio: A Man who develops software with coffee
+        # external-image: false
+        # picture: assets/images/james.jpg
+        # twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -101,6 +101,7 @@ animation: true
 gems:
   - jekyll-seo-tag
   - jekyll-gist
+  - jekyll-feed
 
 jekyll-mentions:
     base_url: https://github.com
