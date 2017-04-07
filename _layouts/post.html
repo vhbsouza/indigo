@@ -3,7 +3,11 @@ layout: page
 ---
 
 {% if page.image and page.headerImage %}
+    {% if page.largeImage %}
+    <img class="title-image-large" src="{{ page.image }}" alt="{{ page.title }}">
+    {% else %}
     <img class="title-image" src="{{ page.image }}" alt="{{ page.title }}">
+    {% endif %}
 {% endif %}
 
 <h1 class="title">{{ page.title }}</h1>
