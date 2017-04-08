@@ -19,7 +19,7 @@ picture: assets/images/profile.jpg
 url: https://vhbsouza.github.io
 # your url: http://USERNAME.github.io
 
-permalink: /:title/
+permalink: /blog/:title/
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-96323943-1'
