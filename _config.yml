@@ -1,9 +1,12 @@
+#Global Configuration
+timezone: America/Sao_Paulo
+
 # main text of home
 name: Victor Hugo Souza
-bio: What is meant to be will always find a way
+bio: What is meant to be will always find a way.
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Thoughts on Programming, Linux, Open Source and other tech stuffs.
 
 # if it's an external image, update below for true
 # better with square images
@@ -98,10 +101,31 @@ show-author: true
 # do you want some animations?
 animation: true
 
+
+# SEO
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: assets/images/favicon/code.png
+        height: 290
+        width: 553
+    #   image: assets/images/code.png
+
+# <meta property="og:image" content="/og-image.jpg">
+# <meta property="og:image:height" content="290">
+# <meta property="og:image:width" content="553">
+# <meta property="og:description" content="Thoughts on Programming, Linux, Open Source and other tech stuffs.">
+# <meta property="og:title" content="Victor Hugo Souza">
+# <meta property="og:url" content="https://vhbsouza.github.io/blog">
+
+# Gems
 gems:
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
+  - jekyll-sitemap
   - jemoji
 
 jekyll-mentions:
