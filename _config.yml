@@ -22,7 +22,7 @@ picture: assets/images/profile.jpg
 url: https://vhbsouza.github.io
 # your url: http://USERNAME.github.io
 
-permalink: /blog/:title/
+permalink: /:title/
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-96323943-1'
@@ -82,6 +82,7 @@ projects: true
 # if you don't need "about" or "blog", comment them out below
 about: true
 blog: true
+search: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
